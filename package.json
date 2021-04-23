@@ -9,7 +9,7 @@
   "author": "Marc Matteo <marcm@lectroid.net>",
   "license": "ISC",
   "dependencies": {
-    "hap-nodejs": "^0.4.38",
-    "node-dht-sensor": "^0.0.33"
+    "hap-nodejs": "^0.9.4",
+    "node-dht-sensor": "^0.4.3"
   }
 }
