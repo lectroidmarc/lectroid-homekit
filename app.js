@@ -1,16 +1,10 @@
 const path = require('path');
-const storage = require('node-persist');
 const HAP = require('hap-nodejs');
 
 const uuid = HAP.uuid;
 const Bridge = HAP.Bridge;
 const Accessory = HAP.Accessory;
 const AccessoryLoader = HAP.AccessoryLoader;
-const Service = HAP.Service;
-const Characteristic = HAP.Characteristic;
-
-// Initialize our storage system
-HAP.init();
 
 // Start by creating our Bridge which will host all loaded Accessories
 const bridge = new Bridge('Lectroid Bridge', uuid.generate('Lectroid Bridge'));
